@@ -12,9 +12,9 @@ let when = [
   "when I was sleeping",
   "while I was exercising",
   "during my lunch",
-  "while I was praying"
+  "while I was praying",
 ];
-const randomItem = array => {
+const randomItem = (array) => {
   let random = array[Math.floor(Math.random() * array.length)];
   return random;
 };
@@ -33,4 +33,3 @@ window.onload = function() {
   let log = document.querySelector("#excuse");
   log.innerHTML = excuse;
 };
-console.log("Perrito");
